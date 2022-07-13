@@ -1,0 +1,47 @@
+body {
+    background-color: #dee3e1;
+    font-family: 'Staatliches', cursive;
+}
+
+.banner {
+    background-color: #2d7055;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 2.5vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    background-color: #c5cbd1;
+    border: 2px solid black;
+}
+
+.bio h1 {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+
+.role {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 2%;
+}
+
+.desc {
+    border: 2px solid white;
+    background-color: #dee3e1;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1vw;
+    margin-top: 7%;
+    padding: 5px;
+    border-radius: 5px;
+}
