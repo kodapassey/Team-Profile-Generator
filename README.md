@@ -2,6 +2,12 @@
 
   ## Description
   The Team-Portfolio-Generator is an application that builds a client a professional page for a team of developers. The user has the option to select a team member that is a manager, engineer, or intern. Each employee has similar attributes including name, employee id, emaill and role. Team-Portfolio-Generator was built with JavaScript, Node.js, inquirer NPM, and Jest unit tests. Each employee has their own unique attributes depending on what they select as their role. For example the manager role has a office number and an engineer has a github.
+  
+  
+
+https://user-images.githubusercontent.com/101370470/179032546-b9e90c5c-4232-49e4-886f-ae9cb95e69ae.mp4
+
+
 
   ## Table of Contents
   - [Description](#description)
