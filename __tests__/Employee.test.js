@@ -3,12 +3,19 @@ const Intern = require('../lib/Intern');
 const Manager = require('../lib/Manager');
 const Employee = require('../lib/Employee');
 
+const employee1 = new Employee('Koda', 2, 'email', 'Manager');
 
-test('creates a manager employee object', () => {
-    const manager = new Manager('Koda', 2, 'email', 'Manager');
+test('checks for employee name', () => {
 
-    expect(manager.name).toBe('Koda');
-    expect(manager.id).toEqual(expect.any(Number));
-    expect(manager.email).toBe('email');
-    expect(manager.role).toBe('Manager');
+    expect(employee1.name).toEqual(expect.any(String));
+});
+
+test('checks for employee id', () => {
+
+    expect(employee1.id).toEqual(expect.any(String));
+});
+
+test('checks for employee email', () => {
+
+    expect(employee1.email).toEqual(expect.any(String));
 });
